@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("sansa-pro.eot");
+  src: url("sansa-pro.eot?#iefix") format("embedded-opentype"), url("sansa-pro.woff") format("woff"), url("sansa-pro.ttf") format("truetype"), url("sansa-pro.svg#sansa-pro") format("svg"); }
+.font-sansa-pro {
+  font-family: "Sansa Pro", Verdana, Arial, sans-serif; }
+
+/*# sourceMappingURL=sansa-pro.css.map */

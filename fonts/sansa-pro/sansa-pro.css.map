@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,UASC;EARC,WAAW,EAAE,WAAW;EACxB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,oBAAkC;EACvC,GAAG,EAAE,oLAAqE;AAY5E,eAAgB;EACd,WAAW,EALI,uCAAW",
+"sources": ["sansa-pro.scss"],
+"names": [],
+"file": "sansa-pro.css"
+}

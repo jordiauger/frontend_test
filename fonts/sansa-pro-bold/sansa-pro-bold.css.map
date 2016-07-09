@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,UASC;EARC,WAAW,EAAE,WAAW;EACxB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,yBAAuC;EAC5C,GAAG,EAAE,6MAA0E;AAYjF,oBAAqB;EACnB,WAAW,EALI,uCAAW;EAM1B,WAAW,EAAE,GAAG",
+"sources": ["sansa-pro-bold.scss"],
+"names": [],
+"file": "sansa-pro-bold.css"
+}
