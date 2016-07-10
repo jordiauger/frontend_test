@@ -123,7 +123,10 @@ body {
     top: 277px; }
 
   .text-container div {
-    padding-bottom: 125px; } }
+    padding-bottom: 125px; }
+
+  .rounded-button {
+    display: none; } }
 @media (min-width: 461px) and (max-width: 960px) {
   .header-logo {
     width: 239px;
@@ -171,6 +174,7 @@ body {
     top: 413px; }
 
   .rounded-button {
+    display: inline-block;
     margin-bottom: 37px; } }
 @media (min-width: 961px) {
   .text-container div {
@@ -245,6 +249,7 @@ body {
     margin-left: 5%; }
 
   .rounded-button {
+    display: inline-block;
     margin-bottom: 67px; } }
 @media (min-width: 461px) {
   .page-content {
