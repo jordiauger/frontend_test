@@ -35,7 +35,6 @@ $blue-line-color:#3599cd;
   top:0;
 }
 
-
 html{
   height:100%;
   width:100%;
@@ -61,22 +60,14 @@ body{
   }
 }
 
-.logo-container{
-  position: relative;
-  margin-top: 50px;
-}
 
-.summer-wave{
-  position: absolute;
-  z-index: 76;
-  width: 415px;
-  height: 25px;
-  left: -50px;
-  top: 277px;
-}
 
 
 @media (max-width: 480px){
+  .logo-container{
+    position: relative;
+    margin-top: 50px;
+  }
   .header-logo{
     @include logo(255px,37px);
     @include logo-position;
@@ -93,21 +84,75 @@ body{
     top:300px;
   }
   .carousel-title{
+    font-family: "Pacifico";
+    color: rgb(45, 45, 45);
+    line-height: 2.082;
+    text-shadow: 0px 0px 14.56px rgba(255, 255, 255, 0.004);
+    -moz-transform: matrix( 0.94064373932765,0,0,0.91627672955975,0,0);
+    -webkit-transform: matrix( 0.94064373932765,0,0,0.91627672955975,0,0);
+    -ms-transform: matrix( 0.94064373932765,0,0,0.91627672955975,0,0);
     text-align: center;
     //font
   }
+  .mobile-show{
+    display: block;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .summer-wave{
+    position: absolute;
+    z-index: 76;
+    width: 100%;
+    height: 25px;
+    top: 277px;
+  }
 }
 
+
+
 @media (min-width: 481px) and (max-width: 960px){
+  .logo-container{
+    position: relative;
+    margin-top: 35px;
+  }
   .header-logo{
     @include logo(239px,43px);
     @include logo-position;
   }
   .front-image{
     @include front-image;
-    height:600px;
+    height:344px;
+  }
+  .carousel-text-container{
+    position: absolute;
+    height:50px;
+    top: 198.912px;
+    z-index: 47;
+    left:50px;
+
+  }
+  .carousel-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Pacifico";
+    color: rgb(45, 45, 45);
+    line-height: 1.24;
+    text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
+    width:300px;
+  }
+  .summer-wave{
+    position: absolute;
+    z-index: 76;
+    width: 100%;
+    height: 74px;
+    top: 413px;
   }
 }
+
+
 
 
 @media (min-width: 961px){
@@ -118,6 +163,15 @@ body{
   .front-image{
     @include front-image;
     height:600px;
+  }
+}
+
+@media (min-width: 461px){
+  .mobile-show{
+    display: none;
+  }
+  .mobile-hidden{
+    display: block;
   }
 }
 

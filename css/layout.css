@@ -29,19 +29,11 @@ body {
   top: 0;
   left: 0; }
 
-.logo-container {
-  position: relative;
-  margin-top: 50px; }
-
-.summer-wave {
-  position: absolute;
-  z-index: 76;
-  width: 415px;
-  height: 25px;
-  left: -50px;
-  top: 277px; }
-
 @media (max-width: 480px) {
+  .logo-container {
+    position: relative;
+    margin-top: 50px; }
+
   .header-logo {
     width: 255px;
     margin-left: 37px;
@@ -63,8 +55,32 @@ body {
     top: 300px; }
 
   .carousel-title {
-    text-align: center; } }
+    font-family: "Pacifico";
+    color: #2d2d2d;
+    line-height: 2.082;
+    text-shadow: 0px 0px 14.56px rgba(255, 255, 255, 0.004);
+    -moz-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
+    -webkit-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
+    -ms-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
+    text-align: center; }
+
+  .mobile-show {
+    display: block; }
+
+  .mobile-hidden {
+    display: none; }
+
+  .summer-wave {
+    position: absolute;
+    z-index: 76;
+    width: 100%;
+    height: 25px;
+    top: 277px; } }
 @media (min-width: 481px) and (max-width: 960px) {
+  .logo-container {
+    position: relative;
+    margin-top: 35px; }
+
   .header-logo {
     width: 239px;
     margin-left: 43px;
@@ -76,7 +92,32 @@ body {
     background-image: url(../img/heading-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px; } }
+    height: 344px; }
+
+  .carousel-text-container {
+    position: absolute;
+    height: 50px;
+    top: 198.912px;
+    z-index: 47;
+    left: 50px; }
+
+  .carousel-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Pacifico";
+    color: #2d2d2d;
+    line-height: 1.24;
+    text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
+    width: 300px; }
+
+  .summer-wave {
+    position: absolute;
+    z-index: 76;
+    width: 100%;
+    height: 74px;
+    top: 413px; } }
 @media (min-width: 961px) {
   .header-logo {
     width: 239px;
@@ -90,5 +131,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px; } }
+@media (min-width: 461px) {
+  .mobile-show {
+    display: none; }
+
+  .mobile-hidden {
+    display: block; } }
 
 /*# sourceMappingURL=layout.css.map */
