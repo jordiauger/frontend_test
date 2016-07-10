@@ -1,0 +1,126 @@
+$main-title-color:#292927;
+$text-title-color:#b34249;
+$content-text-color:#373737;
+$footer-background-color:#fcea2e;
+$red-line-color:#cf2836;
+$orange-line-color:#e79720;
+$blue-line-color:#3599cd;
+
+@mixin paint-line($height,$pixels,$background-color) {
+  width:100%;
+  height:$height;
+  border-bottom: $background-color solid $pixels;
+}
+
+@mixin logo($width,$marginLeft) {
+  width:$width;
+  margin-left: $marginLeft;
+}
+
+@mixin position($type,$top,$left){
+  position: $type;
+  top: $top;
+  left:$left;
+}
+
+@mixin front-image{
+    background-image: url(../img/heading-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin logo-position{
+  z-index:999;
+  position: absolute;
+  top:0;
+}
+
+
+html{
+  height:100%;
+  width:100%;
+}
+body{
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+.logo-container{
+  .blue-line{
+    @include paint-line(5px,3px,$blue-line-color);
+    @include position(relative,0,0);
+  }
+  .red-line{
+    @include paint-line(30px,4px,$red-line-color);
+    @include position(relative,0,0);
+  }
+  .orange-line{
+    @include paint-line(7px,3px,$orange-line-color);
+    @include position(relative,0,0);
+  }
+}
+
+.logo-container{
+  position: relative;
+  margin-top: 50px;
+}
+
+.summer-wave{
+  position: absolute;
+  z-index: 76;
+  width: 415px;
+  height: 25px;
+  left: -50px;
+  top: 277px;
+}
+
+
+@media (max-width: 480px){
+  .header-logo{
+    @include logo(255px,37px);
+    @include logo-position;
+  }
+  .front-image{
+    @include front-image;
+    height:230px;
+  }
+  .carousel-text-container{
+    position: absolute;
+    height:50px;
+    background-color:$footer-background-color;
+    width:100%;
+    top:300px;
+  }
+  .carousel-title{
+    text-align: center;
+    //font
+  }
+}
+
+@media (min-width: 481px) and (max-width: 960px){
+  .header-logo{
+    @include logo(239px,43px);
+    @include logo-position;
+  }
+  .front-image{
+    @include front-image;
+    height:600px;
+  }
+}
+
+
+@media (min-width: 961px){
+  .header-logo{
+    @include logo(239px,41px);
+    @include logo-position;
+  }
+  .front-image{
+    @include front-image;
+    height:600px;
+  }
+}
+
+
+
+
