@@ -60,10 +60,7 @@ body{
   }
 }
 
-
-
-
-@media (max-width: 480px){
+@media (max-width: 460px){
   .logo-container{
     position: relative;
     margin-top: 50px;
@@ -85,6 +82,7 @@ body{
   }
   .carousel-title{
     font-family: "Pacifico";
+    font-size:23px;
     color: rgb(45, 45, 45);
     line-height: 2.082;
     text-shadow: 0px 0px 14.56px rgba(255, 255, 255, 0.004);
@@ -100,6 +98,9 @@ body{
   .mobile-hidden{
     display: none;
   }
+  .desktop-show{
+    display: none;
+  }
   .summer-wave{
     position: absolute;
     z-index: 76;
@@ -109,13 +110,7 @@ body{
   }
 }
 
-
-
-@media (min-width: 481px) and (max-width: 960px){
-  .logo-container{
-    position: relative;
-    margin-top: 35px;
-  }
+@media (min-width: 461px) and (max-width: 960px){
   .header-logo{
     @include logo(239px,43px);
     @include logo-position;
@@ -130,7 +125,6 @@ body{
     top: 198.912px;
     z-index: 47;
     left:50px;
-
   }
   .carousel-title{
     text-align: center;
@@ -143,6 +137,9 @@ body{
     text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
     width:300px;
   }
+  .desktop-show{
+    display: none;
+  }
   .summer-wave{
     position: absolute;
     z-index: 76;
@@ -152,21 +149,78 @@ body{
   }
 }
 
-
-
-
 @media (min-width: 961px){
+  .front-image{
+    @include front-image;
+    height:416px;
+  }
+  .desktop-show{
+    display: block;
+  }
+  .carousel-text-container{
+    position: absolute;
+    height:50px;
+    top: 198.912px;
+    z-index: 47;
+    left:150px;
+  }
+  .carousel-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Pacifico";
+    color: rgb(45, 45, 45);
+    line-height: 1.24;
+    text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
+    width:300px;
+  }
   .header-logo{
     @include logo(239px,41px);
     @include logo-position;
   }
-  .front-image{
-    @include front-image;
-    height:600px;
+  .header-icons{
+    position: relative;
+    top: -65px;
+    float: right;
+  }
+  .sunweb-trusted-logo{
+    width:35px;
+    margin-right: 10px;
+  }
+  .header-text{
+    position: absolute;
+    left: 294px;
+    color: $text-title-color;
+    font-family: "Ford'sFolly";
+    line-height: 0.833;
+
+  }
+  .summer-wave{
+    position: absolute;
+    z-index: 76;
+    width: 90%;
+    height: 74px;
+    top: 463px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+  .page-content{
+    width:90%;
+    margin-left: 5%;
   }
 }
 
+
 @media (min-width: 461px){
+  .logo-container{
+    position: relative;
+    margin-top: 35px;
+  }
   .mobile-show{
     display: none;
   }
@@ -174,6 +228,33 @@ body{
     display: block;
   }
 }
+
+.white-gradient-overlay {
+  background-image: -moz-linear-gradient( 90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.74902) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.74902) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.74902) 100%);
+  position: absolute;
+  top: 52px;
+  width: 100%;
+  height: 122px;
+  z-index: 17;
+}
+
+
+
+@media (min-width: 961px) and (max-width:1200px){
+  .header-text{
+    font-size: 15px;
+    top: 10px;
+  }
+}
+@media (min-width: 1201px){
+  .header-text{
+    font-size: 24px;
+    top: 5px;
+  }
+}
+
 
 
 
