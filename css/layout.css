@@ -30,6 +30,9 @@ body {
   top: 0;
   left: 0; }
 
+footer {
+  overflow: hidden; }
+
 .footer-items {
   list-style-type: none;
   padding-left: 0; }
@@ -73,10 +76,12 @@ body {
 .footer-content {
   background-color: #fcea2e;
   height: 100%;
-  position: relative;
-  top: -23px; }
+  position: relative; }
 
 @media (max-width: 460px) {
+  .footer-content {
+    top: -23px; }
+
   .page-content {
     padding-top: 50px;
     margin-bottom: 69px;
@@ -116,7 +121,7 @@ body {
     left: -300px;
     z-index: 0; }
 
-  .footer-content div {
+  .footer-title {
     color: #ED1C2E;
     font-size: 15px;
     font-weight: bold;
@@ -176,6 +181,9 @@ body {
   .rounded-button {
     display: none; } }
 @media (min-width: 461px) and (max-width: 960px) {
+  .page-content {
+    margin-bottom: 75px; }
+
   .header-logo {
     width: 239px;
     margin-left: 43px;
@@ -223,7 +231,78 @@ body {
 
   .rounded-button {
     display: inline-block;
-    margin-bottom: 37px; } }
+    margin-bottom: 37px; }
+
+  .footer-content {
+    top: -44px; }
+
+  .footer-logo {
+    position: relative;
+    width: 170px;
+    margin-left: 20px;
+    z-index: 999; }
+
+  footer {
+    height: 535px; }
+
+  footer .summer-wave {
+    position: relative;
+    top: -40px;
+    width: 1800px;
+    left: -480px;
+    z-index: 0; }
+
+  .footer-title {
+    color: #ED1C2E;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Ford'sFolly";
+    line-height: 1.5;
+    position: relative;
+    top: -80px;
+    left: 80px;
+    text-align: center; }
+
+  .footer-items {
+    margin-top: 0;
+    width: 15%;
+    padding-left: 5%;
+    float: left; }
+
+  .footer-items li {
+    text-align: left; }
+
+  .footer-element {
+    width: 220px;
+    float: left; }
+
+  .footer-element:nth-child(1) h5, .footer-element:nth-child(2) h5 {
+    margin-top: 0; }
+
+  .empty-footer-element {
+    width: 220px;
+    float: left;
+    height: 163.5px; }
+
+  .footer-elements {
+    float: left;
+    width: 550px;
+    margin-left: 5%; }
+
+  .footer-element ul {
+    list-style-type: none;
+    padding-left: 0; }
+
+  .footer-element:last-child h5 {
+    margin-bottom: 5px; }
+
+  .footer-element:last-child {
+    width: 300px;
+    position: relative;
+    top: -5px; }
+
+  .footer-element ul li {
+    margin-bottom: 5px; } }
 @media (min-width: 961px) {
   .text-container div {
     padding-left: 250px;
