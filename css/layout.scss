@@ -1,5 +1,5 @@
 $main-title-color:#292927;
-$text-title-color:#b34249;
+$text-title-color:#ED1C2E;
 $content-text-color:#373737;
 $footer-background-color:#fcea2e;
 $red-line-color:#cf2836;
@@ -62,16 +62,26 @@ body{
   }
 }
 
+.footer-items{
+  list-style-type: none;
+  padding-left:0;
+}
+.footer-items li{
+  font-size:15px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
 .page-content{
   background-color:white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
-  margin-bottom:50px;
+
 }
 
 .subtitle{
-  color: #ED1C2E;
+  color: $text-title-color;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -99,10 +109,20 @@ body{
   z-index: 20;
   margin-top: 50px;
 }
+.footer-content{
+  background-color: $footer-background-color;
+  height: 100%;
+  position: relative;
+  top: -23px;
+}
 
 @media (max-width: 460px){
   .page-content{
     padding-top:50px;
+    margin-bottom:69px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
   }
   .logo-container{
     position: relative;
@@ -116,6 +136,35 @@ body{
   .header-logo{
     @include logo(255px,37px);
     @include logo-position;
+  }
+  .footer-logo {
+    position: relative;
+    @include logo(170px,54px);
+    z-index:999;
+  }
+  footer{
+    height:343px;
+  }
+  footer .summer-wave{
+    position: relative;
+    top: -19px;
+    width:1000px;
+    left:-300px;
+    z-index:0
+  }
+  .footer-content div{
+    color: $text-title-color;
+    font-size:15px;
+    font-weight:bold;
+    font-family: "Ford'sFolly";
+    line-height: 1.5;
+    width:70%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right:15%;
+  }
+  .footer-items{
+    margin-top: 40px;
   }
   .front-image{
     @include front-image;
