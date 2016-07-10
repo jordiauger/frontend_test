@@ -5,6 +5,7 @@ $footer-background-color:#fcea2e;
 $red-line-color:#cf2836;
 $orange-line-color:#e79720;
 $blue-line-color:#3599cd;
+$background-color-web:#EEEEEE;
 
 @mixin paint-line($height,$pixels,$background-color) {
   width:100%;
@@ -38,6 +39,7 @@ $blue-line-color:#3599cd;
 html{
   height:100%;
   width:100%;
+  background-color:$background-color-web;
 }
 body{
   margin:0;
@@ -60,10 +62,56 @@ body{
   }
 }
 
+.page-content{
+  background-color:white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  margin-bottom:50px;
+}
+
+.subtitle{
+  color: #ED1C2E;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.text-container{
+  margin-top: 90px;
+  text-align: center;
+  font-family: "SansaPro";
+}
+
+.text-container h3{
+  font-weight: bold;
+}
+
+.text-container div{
+  line-height: 1.5;
+  margin-top: 35px;
+}
+
+.rounded-button{
+  border-radius: 8px;
+  background-color: rgb(237, 28, 46);
+  width: 190px;
+  height: 35px;
+  z-index: 20;
+  margin-top: 50px;
+}
+
 @media (max-width: 460px){
+  .page-content{
+    padding-top:50px;
+  }
   .logo-container{
     position: relative;
+  }
+  .text-container{
     margin-top: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 0.923;
   }
   .header-logo{
     @include logo(255px,37px);
@@ -90,7 +138,6 @@ body{
     -webkit-transform: matrix( 0.94064373932765,0,0,0.91627672955975,0,0);
     -ms-transform: matrix( 0.94064373932765,0,0,0.91627672955975,0,0);
     text-align: center;
-    //font
   }
   .mobile-show{
     display: block;
@@ -107,6 +154,9 @@ body{
     width: 100%;
     height: 25px;
     top: 277px;
+  }
+  .text-container div{
+    padding-bottom: 125px;
   }
 }
 
@@ -140,6 +190,10 @@ body{
   .desktop-show{
     display: none;
   }
+  .text-container div, .text-container h3{
+    padding-left: 67px;
+    padding-right: 67px;
+  }
   .summer-wave{
     position: absolute;
     z-index: 76;
@@ -147,9 +201,18 @@ body{
     height: 74px;
     top: 413px;
   }
+  .rounded-button{
+    margin-bottom: 37px;
+  }
 }
 
 @media (min-width: 961px){
+
+  .text-container div{
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
   .front-image{
     @include front-image;
     height:416px;
@@ -184,7 +247,7 @@ body{
     top: -65px;
     float: right;
   }
-  .sunweb-trusted-logo{
+  .header-icons img{
     width:35px;
     margin-right: 10px;
   }
@@ -194,7 +257,6 @@ body{
     color: $text-title-color;
     font-family: "Ford'sFolly";
     line-height: 0.833;
-
   }
   .summer-wave{
     position: absolute;
@@ -213,19 +275,27 @@ body{
     width:90%;
     margin-left: 5%;
   }
+  .rounded-button{
+    margin-bottom: 67px;
+  }
 }
 
 
 @media (min-width: 461px){
+  .page-content{
+    padding-top:35px;
+  }
   .logo-container{
     position: relative;
-    margin-top: 35px;
   }
   .mobile-show{
     display: none;
   }
   .mobile-hidden{
     display: block;
+  }
+  .text-container{
+    margin-top: 90px;
   }
 }
 
@@ -239,8 +309,6 @@ body{
   height: 122px;
   z-index: 17;
 }
-
-
 
 @media (min-width: 961px) and (max-width:1200px){
   .header-text{
