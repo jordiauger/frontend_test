@@ -47,6 +47,8 @@ body{
   width:100%;
 }
 
+button:focus {outline:0;}
+
 .logo-container{
   .blue-line{
     @include paint-line(5px,3px,$blue-line-color);
@@ -64,7 +66,12 @@ body{
 
 footer{
   overflow: hidden;
+  font-family: "Sansa Pro";
+  line-height: 1.167;
+  font-size:12px;
+  color: rgb(45, 45, 45);
 }
+
 .footer-items{
   list-style-type: none;
   padding-left:0;
@@ -92,15 +99,20 @@ footer{
 .text-container{
   margin-top: 90px;
   text-align: center;
-  font-family: "SansaPro";
+  font-family: "Sansa Pro";
 }
 
+.text-container .title{
+  font-weight: 600;
+  font-size: 25px;
+}
 .text-container h3{
   font-weight: bold;
 }
 
 .text-container div{
-  line-height: 1.5;
+  line-height: 2;
+  font-size: 12px;
   margin-top: 35px;
 }
 
@@ -111,12 +123,24 @@ footer{
   height: 35px;
   z-index: 20;
   margin-top: 50px;
+  border:none;
+  cursor: pointer;
+  color:white;
+  font-family: "Sansa Pro";
+  font-weight:600;
+
 }
+.rounded-button:active{
+  background-color: #d11b2b;
+  border:none;
+}
+
+
+
 .footer-content{
   background-color: $footer-background-color;
   height: 100%;
   position: relative;
-
 }
 
 @media (max-width: 460px){
@@ -162,7 +186,7 @@ footer{
     color: $text-title-color;
     font-size:15px;
     font-weight:bold;
-    font-family: "Ford'sFolly";
+    font-family: "Fords Folly";
     line-height: 1.5;
     width:70%;
     text-align: center;
@@ -288,7 +312,7 @@ footer{
     color: $text-title-color;
     font-size:15px;
     font-weight:bold;
-    font-family: "Ford'sFolly";
+    font-family: "Fords Folly";
     line-height: 1.5;
     position: relative;
     top:-80px;
@@ -340,10 +364,12 @@ footer{
 }
 
 @media (min-width: 961px){
-
+  .page-content{
+    margin-bottom: 118px;
+  }
   .text-container div{
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .front-image{
@@ -388,7 +414,7 @@ footer{
     position: absolute;
     left: 294px;
     color: $text-title-color;
-    font-family: "Ford'sFolly";
+    font-family: "Fords Folly";
     line-height: 0.833;
   }
   .summer-wave{
@@ -411,6 +437,77 @@ footer{
   .rounded-button{
     display: inline-block;
     margin-bottom: 67px;
+  }
+  .footer-content{
+    top: -44px;
+  }
+  .footer-logo {
+    position: relative;
+    @include logo(170px,19%);
+    z-index:999;
+  }
+  footer{
+    height:535px;
+  }
+  footer .summer-wave{
+    position: relative;
+    top: -40px;
+    width: 120%;
+    z-index:0
+  }
+  .footer-title{
+    color: $text-title-color;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Fords Folly";
+    line-height: 1.5;
+    position: relative;
+    top:-80px;
+    left: 300px;
+    text-align: left;
+  }
+  .footer-items{
+    margin-top:0;
+    width:15%;
+    padding-left:5%;
+    float: left;
+  }
+
+  .footer-items li{
+    text-align: left;
+  }
+  .footer-element{
+    width:220px;
+    float: left;
+  }
+  .footer-element:nth-child(1) h5, .footer-element:nth-child(2) h5,.footer-element:nth-child(3) h5{
+    margin-top: 0;
+  }
+  .empty-footer-element{
+    width:0;
+  }
+  .footer-elements{
+    float: left;
+    width: 670px;
+    margin-left: 5%;
+  }
+  .footer-element ul{
+    list-style-type: none;
+    padding-left:0;
+  }
+  .footer-element:last-child h5{
+    margin-bottom:5px;
+  }
+  .footer-element:last-child{
+    width:300px;
+    position: relative;
+    top:-5px;
+  }
+  .footer-element ul li{
+    margin-bottom: 5px;
+  }
+  .footer-content{
+    padding-left:15%;
   }
 }
 
@@ -458,7 +555,15 @@ footer{
   }
 }
 
+@media (min-width: 461px) and(max-width: 760px){
+  footer{
+    height:700px;
+  }
 
+  .footer-items{
+    width:100%;
+  }
+}
 
 
 
