@@ -82,6 +82,14 @@ footer{
   text-align: center;
 }
 
+.footer-items, .footer-element{
+  font-family: "Verdana";
+}
+
+.footer-element h5{
+  font-family:"Sansa Pro";
+}
+
 .page-content{
   background-color:white;
   border-bottom-left-radius: 5px;
@@ -112,6 +120,7 @@ footer{
 
 .text-container div{
   line-height: 2;
+  font-family: "Verdana";
   font-size: 12px;
   margin-top: 35px;
 }
@@ -134,8 +143,6 @@ footer{
   background-color: #d11b2b;
   border:none;
 }
-
-
 
 .footer-content{
   background-color: $footer-background-color;
