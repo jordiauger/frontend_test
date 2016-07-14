@@ -1,3 +1,417 @@
+@media (max-width: 460px) {
+  .mobile-show {
+    display: block; } }
+@media (min-width: 461px) {
+  .mobile-show {
+    display: none; } }
+
+@media (max-width: 460px) {
+  .mobile-hidden {
+    display: none; } }
+@media (min-width: 461px) {
+  .mobile-hidden {
+    display: block; } }
+
+@media (max-width: 460px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 461px) and (max-width: 960px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 961px) {
+  .desktop-show {
+    display: block; } }
+
+@media (max-width: 460px) {
+  .mobile-show {
+    display: block; } }
+@media (min-width: 461px) {
+  .mobile-show {
+    display: none; } }
+
+@media (max-width: 460px) {
+  .mobile-hidden {
+    display: none; } }
+@media (min-width: 461px) {
+  .mobile-hidden {
+    display: block; } }
+
+@media (max-width: 460px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 461px) and (max-width: 960px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 961px) {
+  .desktop-show {
+    display: block; } }
+
+.image-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0; }
+  @media (max-width: 460px) {
+    .image-wrapper {
+      text-align: center; } }
+  @media (min-width: 461px) {
+    .image-wrapper {
+      text-align: left; } }
+
+.header-container {
+  position: relative; }
+  .header-container .blue-line {
+    position: relative;
+    top: 0;
+    left: 0; }
+    @media (max-width: 460px) {
+      .header-container .blue-line {
+        width: 100%;
+        height: 4px;
+        border-bottom: #3599cd solid 5px; } }
+    @media (min-width: 461px) {
+      .header-container .blue-line {
+        width: 100%;
+        height: 2px;
+        border-bottom: #3599cd solid 3px; } }
+  .header-container .red-line {
+    position: relative;
+    top: 0;
+    left: 0; }
+    @media (max-width: 460px) {
+      .header-container .red-line {
+        width: 100%;
+        height: 31px;
+        border-bottom: #cf2836 solid 5px; } }
+    @media (min-width: 461px) {
+      .header-container .red-line {
+        width: 100%;
+        height: 31px;
+        border-bottom: #cf2836 solid 3px; } }
+  .header-container .orange-line {
+    position: relative;
+    top: 0;
+    left: 0; }
+    @media (max-width: 460px) {
+      .header-container .orange-line {
+        width: 100%;
+        height: 7px;
+        border-bottom: #e79720 solid 5px; } }
+    @media (min-width: 461px) {
+      .header-container .orange-line {
+        width: 100%;
+        height: 4px;
+        border-bottom: #e79720 solid 3px; } }
+
+.header-logo {
+  z-index: 999; }
+  @media (max-width: 460px) {
+    .header-logo {
+      width: 255px;
+      margin-left: 0; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .header-logo {
+      width: 239px;
+      margin-left: 43px;
+      position: absolute; } }
+  @media (min-width: 961px) {
+    .header-logo {
+      width: 239px;
+      margin-left: 41px;
+      position: absolute; } }
+
+@media (min-width: 961px) {
+  .header-icons {
+    position: relative;
+    top: -65px;
+    float: right; } }
+
+@media (min-width: 961px) {
+  .header-icons img {
+    width: 35px;
+    margin-right: 10px; } }
+
+@media (min-width: 961px) {
+  .header-text {
+    position: absolute;
+    left: 294px;
+    color: #ED1C2E;
+    font-family: "Fords Folly";
+    line-height: 0.833;
+    font-size: 15px;
+    top: 10px; } }
+@media (min-width: 1200px) {
+  .header-text {
+    font-size: 24px !important;
+    top: 5px !important; } }
+
+.white-gradient-overlay {
+  background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
+  position: absolute;
+  top: 46px;
+  width: 100%;
+  height: 122px;
+  z-index: 17; }
+
+@media (max-width: 460px) {
+  .mobile-show {
+    display: block; } }
+@media (min-width: 461px) {
+  .mobile-show {
+    display: none; } }
+
+@media (max-width: 460px) {
+  .mobile-hidden {
+    display: none; } }
+@media (min-width: 461px) {
+  .mobile-hidden {
+    display: block; } }
+
+@media (max-width: 460px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 461px) and (max-width: 960px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 961px) {
+  .desktop-show {
+    display: block; } }
+
+footer {
+  overflow: hidden;
+  font-family: "Sansa Pro";
+  line-height: 1.167;
+  font-size: 12px;
+  color: #2d2d2d; }
+  @media (max-width: 460px) {
+    footer {
+      height: 380px; } }
+  @media (min-width: 461px) {
+    footer {
+      height: 535px; } }
+  @media (min-width: 461px) and (max-width: 760px) {
+    footer {
+      height: 700px !important; } }
+  footer .summer-wave {
+    position: relative;
+    z-index: 0; }
+    @media (max-width: 460px) {
+      footer .summer-wave {
+        top: -19px;
+        width: 1000px;
+        left: -300px; } }
+    @media (min-width: 461px) and (max-width: 960px) {
+      footer .summer-wave {
+        top: -40px;
+        width: 1800px;
+        left: -480px; } }
+    @media (min-width: 961px) {
+      footer .summer-wave {
+        top: -40px;
+        width: 120%; } }
+
+.footer-content {
+  background-color: #fcea2e;
+  height: 100%;
+  position: relative; }
+  @media (max-width: 460px) {
+    .footer-content {
+      top: -23px; } }
+  @media (min-width: 461px) {
+    .footer-content {
+      top: -44px; } }
+  @media (min-width: 961px) {
+    .footer-content {
+      padding-left: 15%; } }
+
+.footer-items {
+  font-family: "Verdana";
+  list-style-type: none;
+  padding-left: 0; }
+  @media (max-width: 460px) {
+    .footer-items {
+      margin-top: 40px; } }
+  @media (min-width: 461px) {
+    .footer-items {
+      margin-top: 0;
+      width: 15%;
+      padding-left: 5%;
+      float: left; } }
+  @media (min-width: 461px) and (max-width: 760px) {
+    .footer-items {
+      width: 100% !important; } }
+  .footer-items li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center; }
+    @media (min-width: 461px) {
+      .footer-items li {
+        text-align: left !important; } }
+
+.footer-elements {
+  float: left;
+  margin-left: 5%; }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .footer-elements {
+      width: 550px; } }
+  @media (min-width: 961px) {
+    .footer-elements {
+      width: 670px; } }
+
+.footer-element {
+  font-family: "Verdana";
+  width: 220px;
+  float: left; }
+  .footer-element h5 {
+    font-family: "Sansa Pro"; }
+  .footer-element ul {
+    list-style-type: none;
+    padding-left: 0; }
+    .footer-element ul li {
+      margin-bottom: 5px; }
+
+.footer-element-contact-info {
+  position: relative;
+  display: inline-block; }
+
+.footer-element:nth-child(1) h5, .footer-element:nth-child(2) h5 {
+  margin-top: 0; }
+
+@media (min-width: 961px) {
+  .footer-element:nth-child(3) h5 {
+    margin-top: 0; } }
+
+@media (min-width: 461px) and (max-width: 960px) {
+  .empty-footer-element {
+    width: 220px;
+    float: left;
+    height: 163.5px; } }
+@media (min-width: 961px) {
+  .empty-footer-element {
+    width: 0; } }
+
+.footer-logo {
+  position: relative;
+  z-index: 999; }
+  @media (max-width: 460px) {
+    .footer-logo {
+      width: 170px;
+      margin-left: 54px; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .footer-logo {
+      width: 170px;
+      margin-left: 20px; } }
+  @media (min-width: 961px) {
+    .footer-logo {
+      width: 170px;
+      margin-left: 19%; } }
+
+.footer-title {
+  color: #ED1C2E;
+  font-weight: bold;
+  font-family: "Fords Folly";
+  line-height: 1.5; }
+  @media (max-width: 460px) {
+    .footer-title {
+      font-size: 15px;
+      width: 70%;
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .footer-title {
+      font-size: 15px;
+      position: relative;
+      top: -88px;
+      left: 270px; } }
+  @media (min-width: 961px) {
+    .footer-title {
+      font-size: 20px;
+      position: relative;
+      top: -80px;
+      left: 300px;
+      text-align: left; } }
+
+@media (max-width: 460px) {
+  .mobile-show {
+    display: block; } }
+@media (min-width: 461px) {
+  .mobile-show {
+    display: none; } }
+
+@media (max-width: 460px) {
+  .mobile-hidden {
+    display: none; } }
+@media (min-width: 461px) {
+  .mobile-hidden {
+    display: block; } }
+
+@media (max-width: 460px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 461px) and (max-width: 960px) {
+  .desktop-show {
+    display: none; } }
+@media (min-width: 961px) {
+  .desktop-show {
+    display: block; } }
+
+.carousel-text-container {
+  position: absolute;
+  height: 50px; }
+  @media (max-width: 460px) {
+    .carousel-text-container {
+      background-color: #fcea2e;
+      width: 100%;
+      top: 300px; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .carousel-text-container {
+      background-color: transparent;
+      top: 198.912px;
+      z-index: 47;
+      left: 50px; } }
+  @media (min-width: 961px) {
+    .carousel-text-container {
+      background-color: transparent;
+      top: 198.912px;
+      z-index: 47;
+      left: 150px; } }
+
+.carousel-title {
+  text-align: center;
+  font-family: "Pacifico";
+  color: #2d2d2d;
+  text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7); }
+  @media (max-width: 460px) {
+    .carousel-title {
+      font-size: 23px;
+      line-height: 2.082;
+      -moz-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
+      -webkit-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
+      -ms-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0); } }
+  @media (min-width: 461px) {
+    .carousel-title {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 50px;
+      line-height: 1.24;
+      width: 300px; } }
+
+.front-image {
+  background-image: url(../img/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 460px) {
+    .front-image {
+      height: 230px; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .front-image {
+      height: 344px; } }
+  @media (min-width: 961px) {
+    .front-image {
+      height: 416px; } }
+
 html {
   height: 100%;
   width: 100%;
@@ -11,38 +425,29 @@ body {
 button:focus {
   outline: 0; }
 
-.image-wrapper {
-  width: 100%;
-  position: absolute;
-  top: 0; }
-
-footer {
-  overflow: hidden;
-  font-family: "Sansa Pro";
-  line-height: 1.167;
-  font-size: 12px;
-  color: #2d2d2d; }
-
-.footer-items {
-  list-style-type: none;
-  padding-left: 0; }
-
-.footer-items li {
-  font-size: 15px;
-  margin-bottom: 10px;
-  text-align: center; }
-
-.footer-items, .footer-element {
-  font-family: "Verdana"; }
-
-.footer-element h5 {
-  font-family: "Sansa Pro"; }
-
 .page-content {
   background-color: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important; }
+  @media (max-width: 460px) {
+    .page-content {
+      padding-top: 50px;
+      margin-bottom: 69px;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0; } }
+  @media (min-width: 461px) {
+    .page-content {
+      padding-top: 35px; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .page-content {
+      margin-bottom: 75px; } }
+  @media (min-width: 961px) {
+    .page-content {
+      margin-bottom: 118px;
+      width: 90%;
+      margin-left: 5%; } }
 
 .subtitle {
   color: #ED1C2E;
@@ -50,22 +455,42 @@ footer {
   padding-right: 5%; }
 
 .text-container {
-  margin-top: 90px;
   text-align: center;
   font-family: "Sansa Pro"; }
-
-.text-container .title {
-  font-weight: 600;
-  font-size: 25px; }
-
-.text-container h3 {
-  font-weight: bold; }
-
-.text-container div {
-  line-height: 2;
-  font-family: "Verdana";
-  font-size: 12px;
-  margin-top: 35px; }
+  @media (max-width: 460px) {
+    .text-container {
+      margin-top: 50px;
+      padding-left: 12px;
+      padding-right: 12px;
+      line-height: 0.923; } }
+  @media (min-width: 461px) {
+    .text-container {
+      margin-top: 90px; } }
+  .text-container div {
+    line-height: 2;
+    font-family: "Verdana";
+    font-size: 12px;
+    margin-top: 35px; }
+    @media (min-width: 461px) and (max-width: 960px) {
+      .text-container div {
+        padding-left: 67px;
+        padding-right: 67px; } }
+    @media (min-width: 961px) {
+      .text-container div {
+        padding-left: 20%;
+        padding-right: 20%; } }
+  .text-container .title {
+    font-weight: 600;
+    font-size: 25px; }
+  .text-container h3 {
+    font-weight: bold; }
+    @media (min-width: 461px) and (max-width: 960px) {
+      .text-container h3 {
+        padding-left: 67px;
+        padding-right: 67px; } }
+  @media (max-width: 460px) {
+    .text-container .text {
+      padding-bottom: 125px; } }
 
 .rounded-button {
   border-radius: 8px;
@@ -79,476 +504,46 @@ footer {
   color: white;
   font-family: "Sansa Pro";
   font-weight: 600; }
+  @media (max-width: 460px) {
+    .rounded-button {
+      display: none; } }
+  @media (min-width: 461px) {
+    .rounded-button {
+      display: inline-block; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .rounded-button {
+      margin-bottom: 37px; } }
+  @media (min-width: 961px) {
+    .rounded-button {
+      margin-bottom: 67px; } }
 
 .rounded-button:active {
   background-color: #d11b2b;
   border: none; }
 
-.footer-content {
-  background-color: #fcea2e;
-  height: 100%;
-  position: relative; }
-
-@media (max-width: 460px) {
-  .logo-container .blue-line {
-    width: 100%;
-    height: 4px;
-    border-bottom: #3599cd solid 5px;
-    position: relative;
-    top: 0;
-    left: 0; }
-  .logo-container .red-line {
-    width: 100%;
-    height: 31px;
-    border-bottom: #cf2836 solid 5px;
-    position: relative;
-    top: 0;
-    left: 0; }
-  .logo-container .orange-line {
-    width: 100%;
-    height: 7px;
-    border-bottom: #e79720 solid 5px;
-    position: relative;
-    top: 0;
-    left: 0; }
-
-  .image-wrapper {
-    text-align: center; }
-
-  .footer-content {
-    top: -23px; }
-
-  .page-content {
-    padding-top: 50px;
-    margin-bottom: 69px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0; }
-
-  .logo-container {
-    position: relative; }
-
-  .text-container {
-    margin-top: 50px;
-    padding-left: 12px;
-    padding-right: 12px;
-    line-height: 0.923; }
-
-  .header-logo {
-    width: 255px;
-    margin-left: 0;
-    z-index: 999; }
-
-  .footer-logo {
-    position: relative;
-    width: 170px;
-    margin-left: 54px;
-    z-index: 999; }
-
-  footer {
-    height: 343px; }
-
-  footer .summer-wave {
-    position: relative;
-    top: -19px;
-    width: 1000px;
-    left: -300px;
-    z-index: 0; }
-
-  .footer-title {
-    color: #ED1C2E;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: "Fords Folly";
-    line-height: 1.5;
-    width: 70%;
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%; }
-
-  .footer-items {
-    margin-top: 40px; }
-
-  .front-image {
-    background-image: url(../img/heading-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px; }
-
-  .carousel-text-container {
-    position: absolute;
-    height: 50px;
-    background-color: #fcea2e;
-    width: 100%;
-    top: 300px; }
-
-  .carousel-title {
-    font-family: "Pacifico";
-    font-size: 23px;
-    color: #2d2d2d;
-    line-height: 2.082;
-    text-shadow: 0px 0px 14.56px rgba(255, 255, 255, 0.004);
-    -moz-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
-    -webkit-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
-    -ms-transform: matrix(0.94064, 0, 0, 0.91628, 0, 0);
-    text-align: center; }
-
-  .mobile-show {
-    display: block; }
-
-  .mobile-hidden {
-    display: none; }
-
-  .desktop-show {
-    display: none; }
-
-  .summer-wave {
-    position: absolute;
-    z-index: 76;
-    width: 100%;
-    height: 25px;
-    top: 277px; }
-
-  .text-container .text {
-    padding-bottom: 125px; }
-
-  .rounded-button {
-    display: none; } }
-@media (min-width: 461px) and (max-width: 960px) {
-  .image-wrapper {
-    text-align: left; }
-
-  .page-content {
-    margin-bottom: 75px; }
-
-  .header-logo {
-    width: 239px;
-    margin-left: 43px;
-    z-index: 999;
-    position: absolute; }
-
-  .front-image {
-    background-image: url(../img/heading-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 344px; }
-
-  .carousel-text-container {
-    position: absolute;
-    height: 50px;
-    top: 198.912px;
-    z-index: 47;
-    left: 50px; }
-
-  .carousel-title {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 50px;
-    font-family: "Pacifico";
-    color: #2d2d2d;
-    line-height: 1.24;
-    text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
-    width: 300px; }
-
-  .desktop-show {
-    display: none; }
-
-  .text-container div, .text-container h3 {
-    padding-left: 67px;
-    padding-right: 67px; }
-
-  .summer-wave {
-    position: absolute;
-    z-index: 76;
-    width: 100%;
-    height: 74px;
-    top: 413px; }
-
-  .rounded-button {
-    display: inline-block;
-    margin-bottom: 37px; }
-
-  .footer-content {
-    top: -44px; }
-
-  .footer-logo {
-    position: relative;
-    width: 170px;
-    margin-left: 20px;
-    z-index: 999; }
-
-  footer {
-    height: 535px; }
-
-  footer .summer-wave {
-    position: relative;
-    top: -40px;
-    width: 1800px;
-    left: -480px;
-    z-index: 0; }
-
-  .footer-title {
-    color: #ED1C2E;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: "Fords Folly";
-    line-height: 1.5;
-    position: relative;
-    top: -88px;
-    left: 270px; }
-
-  .footer-items {
-    margin-top: 0;
-    width: 15%;
-    padding-left: 5%;
-    float: left; }
-
-  .footer-items li {
-    text-align: left; }
-
-  .footer-element {
-    width: 220px;
-    float: left; }
-
-  .footer-element:nth-child(1) h5, .footer-element:nth-child(2) h5 {
-    margin-top: 0; }
-
-  .empty-footer-element {
-    width: 220px;
-    float: left;
-    height: 163.5px; }
-
-  .footer-elements {
-    float: left;
-    width: 550px;
-    margin-left: 5%; }
-
-  .footer-element ul {
-    list-style-type: none;
-    padding-left: 0; }
-
-  .footer-element:last-child h5 {
-    margin-bottom: 5px; }
-
-  .footer-element:last-child {
-    width: 300px;
-    position: relative;
-    top: -5px; }
-
-  .footer-element ul li {
-    margin-bottom: 5px; } }
-@media (min-width: 961px) {
-  .image-wrapper {
-    text-align: left; }
-
-  .page-content {
-    margin-bottom: 118px; }
-
-  .text-container div {
-    padding-left: 20%;
-    padding-right: 20%; }
-
-  .front-image {
-    background-image: url(../img/heading-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 416px; }
-
-  .desktop-show {
-    display: block; }
-
-  .carousel-text-container {
-    position: absolute;
-    height: 50px;
-    top: 198.912px;
-    z-index: 47;
-    left: 150px; }
-
-  .carousel-title {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 50px;
-    font-family: "Pacifico";
-    color: #2d2d2d;
-    line-height: 1.24;
-    text-shadow: 0px 0px 5.64px rgba(255, 255, 255, 0.7);
-    width: 300px; }
-
-  .header-logo {
-    width: 239px;
-    margin-left: 41px;
-    z-index: 999;
-    position: absolute; }
-
-  .header-icons {
-    position: relative;
-    top: -65px;
-    float: right; }
-
-  .header-icons img {
-    width: 35px;
-    margin-right: 10px; }
-
-  .header-text {
-    position: absolute;
-    left: 294px;
-    color: #ED1C2E;
-    font-family: "Fords Folly";
-    line-height: 0.833; }
-
-  .summer-wave {
-    position: absolute;
-    z-index: 76;
-    width: 90%;
-    height: 74px;
-    top: 463px;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH"; }
-
-  .page-content {
-    width: 90%;
-    margin-left: 5%; }
-
-  .rounded-button {
-    display: inline-block;
-    margin-bottom: 67px; }
-
-  .footer-content {
-    top: -44px; }
-
-  .footer-logo {
-    position: relative;
-    width: 170px;
-    margin-left: 19%;
-    z-index: 999; }
-
-  footer {
-    height: 535px; }
-
-  footer .summer-wave {
-    position: relative;
-    top: -40px;
-    width: 120%;
-    z-index: 0; }
-
-  .footer-title {
-    color: #ED1C2E;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Fords Folly";
-    line-height: 1.5;
-    position: relative;
-    top: -80px;
-    left: 300px;
-    text-align: left; }
-
-  .footer-items {
-    margin-top: 0;
-    width: 15%;
-    padding-left: 5%;
-    float: left; }
-
-  .footer-items li {
-    text-align: left; }
-
-  .footer-element {
-    width: 220px;
-    float: left; }
-
-  .footer-element:nth-child(1) h5, .footer-element:nth-child(2) h5, .footer-element:nth-child(3) h5 {
-    margin-top: 0; }
-
-  .empty-footer-element {
-    width: 0; }
-
-  .footer-elements {
-    float: left;
-    width: 670px;
-    margin-left: 5%; }
-
-  .footer-element ul {
-    list-style-type: none;
-    padding-left: 0; }
-
-  .footer-element:last-child h5 {
-    margin-bottom: 5px; }
-
-  .footer-element:last-child {
-    width: 300px;
-    position: relative;
-    top: -5px; }
-
-  .footer-element ul li {
-    margin-bottom: 5px; }
-
-  .footer-content {
-    padding-left: 15%; } }
-@media (min-width: 461px) {
-  .logo-container .blue-line {
-    width: 100%;
-    height: 2px;
-    border-bottom: #3599cd solid 3px;
-    position: relative;
-    top: 0;
-    left: 0; }
-  .logo-container .red-line {
-    width: 100%;
-    height: 31px;
-    border-bottom: #cf2836 solid 3px;
-    position: relative;
-    top: 0;
-    left: 0; }
-  .logo-container .orange-line {
-    width: 100%;
-    height: 4px;
-    border-bottom: #e79720 solid 3px;
-    position: relative;
-    top: 0;
-    left: 0; }
-
-  .page-content {
-    padding-top: 35px; }
-
-  .logo-container {
-    position: relative; }
-
-  .mobile-show {
-    display: none; }
-
-  .mobile-hidden {
-    display: block; }
-
-  .text-container {
-    margin-top: 90px; } }
-.white-gradient-overlay {
-  background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
-  background-image: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.74902) 100%);
+.summer-wave {
   position: absolute;
-  top: 46px;
-  width: 100%;
-  height: 122px;
-  z-index: 17; }
-
-@media (min-width: 961px) and (max-width: 1200px) {
-  .header-text {
-    font-size: 15px;
-    top: 10px; } }
-@media (min-width: 1201px) {
-  .header-text {
-    font-size: 24px;
-    top: 5px; } }
-@media (min-width: 461px) and (max-width: 760px) {
-  footer {
-    height: 700px; }
-
-  .footer-items {
-    width: 100%; } }
+  z-index: 76; }
+  @media (max-width: 460px) {
+    .summer-wave {
+      width: 100%;
+      height: 25px;
+      top: 277px; } }
+  @media (min-width: 461px) and (max-width: 960px) {
+    .summer-wave {
+      width: 100%;
+      height: 74px;
+      top: 413px; } }
+  @media (min-width: 961px) {
+    .summer-wave {
+      width: 90%;
+      height: 74px;
+      top: 463px;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH"; } }
 
 /*# sourceMappingURL=layout.css.map */

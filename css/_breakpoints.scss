@@ -1,0 +1,70 @@
+$sm_breakpoint:460px;
+$tablet_breakpoint:760px;
+$md_breakpoint:960px;
+$lg_breakpoint:1200px;
+
+@mixin xs_device {
+  @media (max-width: #{$sm_breakpoint}) {
+    @content;
+  }
+}
+
+@mixin from_xs_device{
+  @media (min-width: #{$sm_breakpoint +1px}){
+    @content
+  }
+}
+
+@mixin sm_device {
+  @media (min-width: #{$sm_breakpoint +1px}) and (max-width: #{$md_breakpoint}) {
+    @content;
+  }
+}
+
+@mixin sm_device_special { //Used  to define 2 ranges inside sm, best fitting for tablets.
+  @media (min-width: #{$sm_breakpoint +1px}) and (max-width: #{$tablet_breakpoint}) {
+    @content;
+  }
+}
+
+@mixin md_device {
+  @media (min-width: #{$md_breakpoint +1px}) {
+    @content;
+  }
+}
+
+@mixin lg_device {
+  @media (min-width: #{$lg_breakpoint}) {
+    @content;
+  }
+}
+
+.mobile-show{
+  @include xs_device{
+    display: block;
+  }
+  @include from_xs_device{
+    display: none;
+  }
+}
+
+.mobile-hidden{
+  @include xs_device{
+    display: none;
+  }
+  @include from_xs_device{
+    display: block;
+  }
+}
+
+.desktop-show{
+  @include xs_device{
+    display: none;
+  }
+  @include sm_device{
+    display: none;
+  }
+  @include md_device{
+    display: block;
+  }
+}
