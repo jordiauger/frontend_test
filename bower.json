@@ -1,0 +1,20 @@
+{
+  "name": "frontend_test",
+  "homepage": "https://github.com/jordiauger/frontend_test",
+  "authors": [
+    "Jordi Auger Iniesta"
+  ],
+  "description": "FrontEnd test for Sundio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
