@@ -33,6 +33,11 @@ button:focus {
   top: 0;
   left: 0; }
 
+.image-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0; }
+
 footer {
   overflow: hidden;
   font-family: "Sansa Pro";
@@ -107,6 +112,9 @@ footer {
   position: relative; }
 
 @media (max-width: 460px) {
+  .image-wrapper {
+    text-align: center; }
+
   .footer-content {
     top: -23px; }
 
@@ -128,10 +136,8 @@ footer {
 
   .header-logo {
     width: 255px;
-    margin-left: 37px;
-    z-index: 999;
-    position: absolute;
-    top: 0; }
+    margin-left: 0;
+    z-index: 999; }
 
   .footer-logo {
     position: relative;
@@ -203,12 +209,15 @@ footer {
     height: 25px;
     top: 277px; }
 
-  .text-container div {
+  .text-container .text {
     padding-bottom: 125px; }
 
   .rounded-button {
     display: none; } }
 @media (min-width: 461px) and (max-width: 960px) {
+  .image-wrapper {
+    text-align: left; }
+
   .page-content {
     margin-bottom: 75px; }
 
@@ -216,8 +225,7 @@ footer {
     width: 239px;
     margin-left: 43px;
     z-index: 999;
-    position: absolute;
-    top: 0; }
+    position: absolute; }
 
   .front-image {
     background-image: url(../img/heading-bg.jpg);
@@ -332,6 +340,9 @@ footer {
   .footer-element ul li {
     margin-bottom: 5px; } }
 @media (min-width: 961px) {
+  .image-wrapper {
+    text-align: left; }
+
   .page-content {
     margin-bottom: 118px; }
 
@@ -370,8 +381,7 @@ footer {
     width: 239px;
     margin-left: 41px;
     z-index: 999;
-    position: absolute;
-    top: 0; }
+    position: absolute; }
 
   .header-icons {
     position: relative;
